@@ -1,0 +1,93 @@
+h1 {
+	color: $secondary-color;
+	font-size: 3rem;
+	margin-bottom: 0.2rem;
+}
+
+.home-portrait {
+	height: 7rem;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+}
+
+.byron-quote {
+	margin: 2.2rem;
+	font-size: 1.2rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+.thework {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	border-radius: 1rem;
+}
+
+.home-cta {
+	background-color: $secondary-background;
+	padding: 1rem;
+	border-radius: 1rem;
+
+	h2 {
+		margin: 0;
+		padding: 0.5rem;
+		font-size: 1.2rem;
+		font-weight: 400;
+	}
+
+	button {
+		margin-top: 1rem;
+		font-size: 1.2rem;
+		margin: 0.8rem 0 0.2rem;
+		background: $secondary-color;
+		border-radius: 5px;
+		border: none;
+		padding: 0.4rem;
+
+		a {
+			color: #ffffff;
+		}
+	}
+
+	p {
+		font-weight: 400;
+		font-size: 1rem;
+		margin: 0;
+	}
+}
+
+.blockquote-wrapper {
+	border-left: 0.5rem solid $secondary-color;
+	border-radius: 0.5rem;
+	padding-left: 0.3rem;
+	margin: 2rem auto;
+
+	footer {
+		text-align: right;
+	}
+}
+
+.about-the-author {
+	margin: auto;
+	background-color: $secondary-background;
+	padding: 0.9rem;
+	border-radius: 0.5rem;
+
+	h3 {
+		color: $secondary-color;
+	}
+
+	button {
+		background-color: $secondary-color;
+		border: none;
+		padding: 0.3rem;
+		color: white;
+		border-radius: 0.5rem;
+	}
+
+	h3 {
+		margin: 0;
+	}
+}

@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;600;700;900&display=swap");
+*,
+:before,
+:after {
+  box-sizing: border-box; }
+
+html {
+  font-size: 1rem; }
+
+body {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 0rem 1rem;
+  max-width: 50rem;
+  font-family: Raleway, Verdana, sans-serif;
+  line-height: 1.5; }
+
+ul {
+  padding: 0;
+  margin: 0;
+  font-weight: 500; }
+
+p {
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #fe6872; }
+
+/* 
+Layout
+*/
+body main {
+  margin-top: 70px; }
+
+footer {
+  text-align: center; }
+
+.home-cta {
+  text-align: center; }
+
+/*
+Navigation 
+*/
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: white; }
+  .nav-container .nav-brand {
+    display: none; }
+  .nav-container .nav-logo {
+    flex: 1 1 10%; }
+    .nav-container .nav-logo img {
+      max-width: 1.7rem;
+      padding: 0; }
+  .nav-container .nav-menu {
+    display: flex;
+    flex: 2 1 80%;
+    justify-content: space-between; }
+    .nav-container .nav-menu .nav-link {
+      font-size: 0.9rem;
+      padding: 0rem 0.2rem;
+      list-style-type: none; }
+      .nav-container .nav-menu .nav-link a {
+        color: #fe6872;
+        font-weight: 700; }
+
+.real-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%; }
+
+.footer-nav-menu {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0; }
+  .footer-nav-menu .footer-nav-link {
+    list-style-type: none;
+    padding: 0 0.5rem; }
+
+h1 {
+  color: #fe6872;
+  font-size: 3rem;
+  margin-bottom: 0.2rem; }
+
+.home-portrait {
+  height: 7rem;
+  border-radius: 50%;
+  display: block;
+  margin: auto; }
+
+.byron-quote {
+  margin: 2.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center; }
+
+.thework {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  border-radius: 1rem; }
+
+.home-cta {
+  background-color: rgba(254, 104, 114, 0.1);
+  padding: 1rem;
+  border-radius: 1rem; }
+  .home-cta h2 {
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 400; }
+  .home-cta button {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin: 0.8rem 0 0.2rem;
+    background: #fe6872;
+    border-radius: 5px;
+    border: none;
+    padding: 0.4rem; }
+    .home-cta button a {
+      color: #ffffff; }
+  .home-cta p {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0; }
+
+.blockquote-wrapper {
+  border-left: 0.5rem solid #fe6872;
+  border-radius: 0.5rem;
+  padding-left: 0.3rem;
+  margin: 2rem auto; }
+  .blockquote-wrapper footer {
+    text-align: right; }
+
+.about-the-author {
+  margin: auto;
+  background-color: rgba(254, 104, 114, 0.1);
+  padding: 0.9rem;
+  border-radius: 0.5rem; }
+  .about-the-author h3 {
+    color: #fe6872; }
+  .about-the-author button {
+    background-color: #fe6872;
+    border: none;
+    padding: 0.3rem;
+    color: white;
+    border-radius: 0.5rem; }
+  .about-the-author h3 {
+    margin: 0; }
+
+.divider-heading {
+  margin: 2rem 0;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #fe6872; }
+
+.testimonials-wrapper {
+  display: flex;
+  flex-direction: column; }
+  .testimonials-wrapper .testimonial-container {
+    background-color: rgba(254, 104, 114, 0.1);
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0.4rem; }
+    .testimonials-wrapper .testimonial-container blockquote {
+      margin: 0; }
+    .testimonials-wrapper .testimonial-container footer {
+      text-align: right;
+      color: #fe6872; }
+
+.article-wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.article-container {
+  background-color: rgba(254, 104, 114, 0.1);
+  border-radius: 1rem;
+  margin: 1rem auto; }
+  .article-container img {
+    max-width: 100%;
+    border-radius: 1rem 1rem 0 0; }
+  .article-container h2 {
+    color: #fe6872;
+    font-weight: 400; }
+  .article-container h2,
+  .article-container p {
+    margin: 0;
+    padding: 0.5rem; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,64 @@
+/*
+Navigation 
+*/
+
+@import '../base/variables';
+.nav-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	background-color: white;
+
+	.nav-brand {
+		display: none;
+	}
+
+	.nav-logo {
+		flex: 1 1 10%;
+		img {
+			max-width: 1.7rem;
+			padding: 0;
+		}
+	}
+	.nav-menu {
+		display: flex;
+		flex: 2 1 80%;
+		justify-content: space-between;
+
+		.nav-link {
+			font-size: 0.9rem;
+			padding: 0rem 0.2rem;
+			list-style-type: none;
+
+			a {
+				color: $secondary-color;
+				font-weight: 700;
+			}
+		}
+	}
+}
+
+.real-footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+}
+
+.footer-nav-menu {
+	display: flex;
+	justify-content: center;
+	margin: 2rem 0;
+
+	.footer-nav-link {
+		list-style-type: none;
+		padding: 0 0.5rem;
+	}
+}

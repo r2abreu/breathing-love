@@ -1,0 +1,17 @@
+@import './base/reset';
+@import './components/layout';
+@import './components/nav';
+@import './base/variables';
+@import './components/articles';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;600;700;900&display=swap');
+
+h1 {
+	color: $secondary-color;
+	font-size: 3rem;
+	margin-bottom: 0.2rem;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}

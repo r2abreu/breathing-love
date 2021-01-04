@@ -1,0 +1,27 @@
+.divider-heading {
+	margin: 2rem 0;
+	font-size: 1.7rem;
+	font-weight: 400;
+	color: $secondary-color;
+}
+
+.testimonials-wrapper {
+	display: flex;
+	flex-direction: column;
+
+	.testimonial-container {
+		background-color: rgba(254, 104, 114, 0.1);
+		padding: 1rem;
+		margin: 0.5rem 0;
+		border-radius: 0.4rem;
+
+		blockquote {
+			margin: 0;
+		}
+
+		footer {
+			text-align: right;
+			color: $secondary-color;
+		}
+	}
+}

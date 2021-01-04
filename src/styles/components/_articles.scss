@@ -1,0 +1,26 @@
+.article-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.article-container {
+	background-color: $secondary-background;
+	border-radius: 1rem;
+	margin: 1rem auto;
+
+	img {
+		max-width: 100%;
+		border-radius: 1rem 1rem 0 0;
+	}
+
+	h2 {
+		color: $secondary-color;
+		font-weight: 400;
+	}
+
+	h2,
+	p {
+		margin: 0;
+		padding: 0.5rem;
+	}
+}
